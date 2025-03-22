@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: face-swap
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: face-swap
+  template:
+    metadata:
+      labels:
+        app: face-swap
+    spec:
+      containers:
+        - name: face-swap-container
+          image: gcr.io/abovedigital-1696444393502/your-app-name:latest
+          resources:
+            requests:
+              memory: "12Gi"
+              cpu: "4"
+              ephemeral-storage: "32Gi"
+            limits:
+              memory: "68Gi"
+              cpu: "20"
+              ephemeral-storage: "68Gi"
+          ports:
+            - containerPort: 5000
