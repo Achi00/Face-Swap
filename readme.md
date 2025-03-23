@@ -1,6 +1,10 @@
-# AI Face Swap and Enhancement Service
+# AI Face Swap and Enhancement
 
-A powerful Python-based service that provides face swapping and enhancement capabilities using state-of-the-art AI models.
+Python-based service that provides face swapping and enhancement capabilities using state-of-the-art AI models.
+
+## Docker Image
+
+Check [Docker Image](https://hub.docker.com/repository/docker/achigorgadze/face-swap-api-gpu/general) version of this project docker image includes all models and neccessary packages from get go
 
 ## Features
 
