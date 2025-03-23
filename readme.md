@@ -4,7 +4,7 @@ Python-based service that provides face swapping and enhancement capabilities us
 
 ## Docker Image
 
-Check [Docker Image](https://hub.docker.com/repository/docker/achigorgadze/face-swap-api-gpu/general) version of this project docker image includes all models and neccessary packages from get go
+Check [Docker Image](https://hub.docker.com/repository/docker/achigorgadze/face-swap-api-gpu/general) of this project docker image includes all models and neccessary packages from get go
 
 ## Features
 
